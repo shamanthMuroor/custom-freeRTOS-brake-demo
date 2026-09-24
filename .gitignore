@@ -1,0 +1,141 @@
+# Build output directories (Debug, Release, and any custom configs)
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# ---------------- Eclipse / CubeIDE workspace metadata ----------------
+.metadata/
+RemoteSystemsTempFiles/
+.recommenders/
+
+# ---------------- STM32CubeMX (integrated in CubeIDE) ----------------
+*.ioc.bak
+.mxproject.bak
+~$*.ioc
+
+# ---------------- CubeIDE / GCC extra artifacts ----------------
+*.list
+*.lst
+*.map
+*.bin
+*.srec
+*.cyclo
+*.su
+
+# ---------------- ST-Link / Debugger logs ----------------
+*.log
+st-link_gdbserver_*.log
+
+# ---------------- OS junk ----------------
+Thumbs.db
+.DS_Store
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+
+
+# ---------------- MATLAB / Simulink ----------------
+
+# Auto-save and backup files
+*.asv
+*.autosave
+*.slxc
+*.m~
+*.slx.r*
+*.mdl.r*
+*.bak
+
+# Derived content-obscured files
+*.p
+
+# Simulink cache
+slprj/
+simulink_cache/
+
+# Code generation cache
+codegen/
+sccprj/
+
+# MATLAB generated reports
+html/
+
+# Temporary MATLAB folders
+work/
+temp/
+
+# Coverage / testing artifacts
+coverage/
+*.mldatx
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# ---------------- Embedded Coder generated temporary files ----------------
+buildInfo.mat
+coderAssumptions.mat
+*_traceInfo.mat
+*_codeInfo.mat
+*_capi.mat
+rtw_proj.tmw
+
+# Generated executables
+*.mex*
